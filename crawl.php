@@ -3,12 +3,12 @@
  * @Author: Nate Bosscher (c) 2015
  * @Date:   2016-03-22 16:48:00
  * @Last Modified by:   Nate Bosscher
- * @Last Modified time: 2016-03-22 18:38:32
+ * @Last Modified time: 2016-03-22 18:50:30
  */
 
 namespace Crawler;
 
-include_once "include.php";
+include_once __dir__ . "src/include.php";
 
 echo "\nWeb Crawler 1.0 by Nate Bosscher\n";
 
