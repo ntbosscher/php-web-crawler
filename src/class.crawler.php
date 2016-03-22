@@ -3,7 +3,7 @@
  * @Author: Nate Bosscher (c) 2015
  * @Date:   2016-03-22 16:21:30
  * @Last Modified by:   Nate Bosscher
- * @Last Modified time: 2016-03-22 18:38:22
+ * @Last Modified time: 2016-03-22 18:52:44
  */
 
 namespace Crawler;
@@ -37,7 +37,7 @@ class Crawler{
 		}
 
 		if(!$output_dir)
-			$output_dir = __dir__ . "/output";
+			$output_dir = __dir__ . "/../output";
 
 		$this->output = $output_dir;
 
